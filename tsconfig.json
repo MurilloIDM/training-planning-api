@@ -6,7 +6,10 @@
     "strict": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "emitDecoratorMetadata": true,
+    "paths": {
+      "@prisma/client": ["./generated/prisma/client"]
+    }
   },
   "include": ["**/*.ts"],
   "exclude": ["node_modules", "dist"]
